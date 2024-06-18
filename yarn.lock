@@ -2066,7 +2066,7 @@ blueimp-canvas-to-blob@3, blueimp-canvas-to-blob@^3.16.0:
   resolved "https://registry.yarnpkg.com/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.28.0.tgz#c8ab4dc6bb08774a7f273798cdf94b0776adf6c8"
   integrity sha512-5q+YHzgGsuHQ01iouGgJaPJXod2AzTxJXmVv90PpGrRxU7G7IqgPqWXz+PBmt3520jKKi6irWbNV87DicEa7wg==
 
-blueimp-file-upload@^10.30.1, blueimp-file-upload@blueimp/jQuery-File-Upload#^10.32.0, jquery-file-upload@blueimp/jQuery-File-Upload#~10.32.0:
+blueimp-file-upload@^10.30.1, blueimp-file-upload@blueimp/jQuery-File-Upload#^10.32.0:
   version "10.32.0"
   resolved "https://codeload.github.com/blueimp/jQuery-File-Upload/tar.gz/0c85627dfb551e2ce25b82cddef557069bd803ed"
   optionalDependencies:
@@ -5950,10 +5950,10 @@ graceful-fs@~2.0.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-2.0.3.tgz#7cd2cdb228a4a3f36e95efa6cc142de7d1a136d0"
   integrity sha1-fNLNsiiko/Nule+mzBQt59GhNtA=
 
-"grow-textarea@git+https://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669":
+"grow-textarea@git://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669":
   version "1.0.1"
   uid d54141c9456343f14cc6c935faa0915af09eb669
-  resolved "git+https://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669"
+  resolved "git://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669"
   dependencies:
     component-event "^0.1.4"
     ianstormtaylor-css "^0.3.1"
@@ -7522,6 +7522,14 @@ jquery-confirm@^3.3.4:
   integrity sha512-SF3mX2kWAK9FP/Hut1uLHI30LPZ9DAki3Jq6JId9vg6AlMVugjlh40APtuxPQ/0C44XTkQFSVyRrg57NMbaicA==
   dependencies:
     jquery ">=1.6"
+
+jquery-file-upload@blueimp/jQuery-File-Upload#~10.32.0:
+  version "10.32.0"
+  resolved "https://codeload.github.com/blueimp/jQuery-File-Upload/tar.gz/0c85627dfb551e2ce25b82cddef557069bd803ed"
+  optionalDependencies:
+    blueimp-canvas-to-blob "3"
+    blueimp-load-image "5"
+    blueimp-tmpl "3"
 
 jquery-lazyload@1.9.7:
   version "1.9.7"
@@ -13717,10 +13725,10 @@ window-size@0.1.0:
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
   integrity sha1-VDjNLqk7IC76Ohn+iIeu58lPnJ0=
 
-"woofmark@git+https://github.com/jywarren/woofmark.git#plots2":
+"woofmark@git://github.com/jywarren/woofmark.git#plots2":
   version "4.0.3"
   uid "78821fad8687757a4201fbef3be4b85418e785ef"
-  resolved "git+https://github.com/jywarren/woofmark.git#78821fad8687757a4201fbef3be4b85418e785ef"
+  resolved "git://github.com/jywarren/woofmark.git#78821fad8687757a4201fbef3be4b85418e785ef"
   dependencies:
     bullseye "1.4.6"
     bureaucracy "1.0.7"
@@ -13784,16 +13792,16 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^6.1.0, ws@^6.2.1:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
-  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.3.tgz#ccc96e4add5fd6fedbc491903075c85c5a11d9ee"
+  integrity sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==
   dependencies:
     async-limiter "~1.0.0"
 
 ws@^8.2.3:
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.4.2.tgz#18e749868d8439f2268368829042894b6907aa0b"
-  integrity sha512-Kbk4Nxyq7/ZWqr/tarI9yIt/+iNNFOjBXEWgTb4ydaNHBNGgvf2QHbS9fdfsndfjFlFwEd4Al+mw83YkaD10ZA==
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 xdg-basedir@^1.0.0:
   version "1.0.1"
